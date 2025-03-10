@@ -29,7 +29,7 @@ This is a simple Amazon clone built using Flutter. It includes the following pag
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone [https://github.com/Unluck-rider/amazon-clone.git]
 
  
 
