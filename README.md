@@ -1,6 +1,7 @@
 # Amazon Clone (UI Only and fake api integration)
 
-This is a simple Amazon clone built using Flutter. It includes the following pages with only UI design (no backend or API integration):
+This is a simple Amazon clone built using Flutter. It includes the following pages with only UI design (no backend or API integration), with plans for future backend integration:
+
 
 - Login Page
 - Forgot Password Page
@@ -24,6 +25,12 @@ This is a simple Amazon clone built using Flutter. It includes the following pag
 - Fully responsive UI
 - Clean and modern design
 - Easy navigation between pages
+
+- ## Future Integration
+This project currently includes only UI design, but future updates will include:
+- **API Integration**: Fetch and display real product data, user authentication, and order details.
+- **Backend Development**: Implement authentication, user data management, and payment processing.
+- **Database Support**: Store and retrieve user and product details from a backend database.
 
 ## Installation
 
