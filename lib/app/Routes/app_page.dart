@@ -4,6 +4,7 @@ import 'package:flutter/cupertino.dart';
 import '../Screens/Login/Forgot Password.dart';
 import '../Screens/Login/Login.dart';
 import '../Screens/SplashScreen.dart';
+import '../Screens/Tab_home/Home_main.dart';
 import 'app_route.dart';
 
 class ApPages {
@@ -14,6 +15,7 @@ class ApPages {
     Routes.homeRoute: (context)=>const Splashscreen(),
     Routes.LoginScreenRoute: (context)=>const LoginScreen(),
     Routes.ForgotPasswordRoute: (context)=>const ForgotPassword(),
+    Routes.HomePagemainRoute: (context)=>const HomePagemain(),
 
   };
 
