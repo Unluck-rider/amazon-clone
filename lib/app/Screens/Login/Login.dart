@@ -2,6 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../Register/RegisterScreen.dart';
+import '../Tab_home/Home_main.dart';
 import 'Forgot Password.dart';
 
 class LoginScreen extends StatefulWidget {
@@ -108,7 +109,9 @@ class _LoginScreenState extends State<LoginScreen> {
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
                 GestureDetector(
-                  onTap: () {},
+                  onTap: () {
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePagemain()));
+                  },
                   child: Container(
                     width: MediaQuery.of(context).size.width * 0.5,
                     decoration: BoxDecoration(

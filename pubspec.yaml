@@ -14,6 +14,9 @@ dependencies:
 
 
   cupertino_icons: ^1.0.8
+  permission_handler: ^10.4.0
+  smooth_page_indicator: ^1.2.1
+  http: ^0.13.3
 
 dev_dependencies:
   flutter_test:
@@ -34,6 +37,10 @@ flutter:
   assets:
      - assets/img/
      - assets/
+     - assets/images/
+     - assets/profile/
+     - assets/cart/
+     - assets/menu/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
