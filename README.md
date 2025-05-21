@@ -1,44 +1,42 @@
-# E-commerce Shopping App
+# Amazon Clone
 
-## Introduction
-This Flutter Shopping App is a modern, responsive mobile application designed to provide users with a seamless shopping experience. The app supports user authentication (login and registration), secure payment processing, and adaptive layouts for both mobile and tablet devices. It is built with clean architecture and offers smooth UI/UX for effortless shopping on the go.
+This is a simple Amazon clone built using Flutter. It includes the following pages with only UI design (no backend or API integration), with plans for future backend integration:
 
----
+
+- Login Page
+- Forgot Password Page
+- Register Page
+- Home Page
+- Profile Page
+- Cart Page
+- Menu Page
+
+## Screenshots
+<img src="https://github.com/user-attachments/assets/c0758691-4a2e-45a2-a55f-f319cc0537da" width="300" height="500" />  <img src="https://github.com/user-attachments/assets/8844e00f-92d1-4451-9ac9-12c3a55ff955da" width="300" height="500" />   <img src="https://github.com/user-attachments/assets/502690cb-4778-4b05-b51a-c35d4337c120da"  width="300" height="500" />
+
+<img src="https://github.com/user-attachments/assets/b03a081e-e02f-48b4-a685-7da7aae439cada"  width="300" height="500" />  <img src="https://github.com/user-attachments/assets/8eb45e1e-8b8e-43ca-bcf1-4a88e6f73348da"  width="300" height="500" />  <img src="https://github.com/user-attachments/assets/2b1589db-2737-4378-9a27-0517883c6346da"  width="300" height="500" />
+
+  <img src="https://github.com/user-attachments/assets/e9bae2e1-0028-491b-adb0-92088fc5f1f7"  width="300" height="550" />    <img src="https://github.com/user-attachments/assets/90c859f1-4ddd-4d2e-9072-9339f56d6f70"  width="300" height="550" />   <img src="https://github.com/user-attachments/assets/5f9521f0-b7b6-440f-b3cf-9982978cb071"  width="300" height="550" /> 
+
+  <img src="https://github.com/user-attachments/assets/54498ca2-f235-4366-a3d5-837153a5596e"  width="300" height="550" /> <img src="https://github.com/user-attachments/assets/5cd98bb1-532f-4079-8de4-417d301af8fd"  width="300" height="550" />   <img src="https://github.com/user-attachments/assets/af4c39a8-55bd-4bd1-b5b0-1debe3f4cc2b"  width="300" height="550" />
+
 
 ## Features
+- Fully responsive UI
+- Clean and modern design
+- Easy navigation between pages
 
-### 1. User Authentication
-- **Login:** Users can log in securely using their registered email and password.
-- **Registration:** New users can create accounts by providing their name, email, mobile number (with country code), date of birth, and password.
-- **Password Validation:** Includes real-time password and confirm password matching with error display.
+- ## Future Integration
+This project currently includes only UI design, but future updates will include:
+- **API Integration**: Fetch and display real product data, user authentication, and order details.
+- **Backend Development**: Implement authentication, user data management, and payment processing.
+- **Database Support**: Store and retrieve user and product details from a backend database.
 
-### 2. Responsive UI
-- The app is fully responsive and optimized for various screen sizes including smartphones and tablets.
-- Uses adaptive layouts to ensure a consistent and user-friendly interface on different devices.
-
-### 3. Payment Gateway Integration
-- Supports secure payment processing (specify your payment gateway, e.g., Razorpay, Stripe, PayPal).
-- Users can seamlessly complete transactions within the app.
-- Handles payment status updates and error management gracefully.
-
----
-
-## Getting Started
-
-### Prerequisites
-- Flutter SDK (>= 3.0)
-- Dart SDK
-- Android Studio / VS Code
-- Device or emulator for testing
-
-### Installation & Running
+## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/flutter-shopping-app.git
-   cd flutter-shopping-app
-
- 
+   ```sh
+   git clone [https://github.com/Unluck-rider/amazon-clone.git]
 
 
 
